@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000000, #242323, #000000);
+  min-height: 100vh;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.counter-card {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 420px;
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.counter-card h1 {
+  font-size: 32px;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #202020;
+  margin-bottom: 30px;
+}
+
+.count-box {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.35);
+}
+
+.count-box span {
+  font-size: 52px;
+  font-weight: bold;
+  color: rgb(44, 44, 44);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  min-width: 140px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
