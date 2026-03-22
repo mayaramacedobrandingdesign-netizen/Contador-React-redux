@@ -1,16 +1,25 @@
-# React + Vite
+# Contador com React Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como atividade prática utilizando **React** e **Redux**, com o objetivo de entender melhor como funciona o **gerenciamento de estado global** em aplicações React utilizando o **Flux Pattern**.
 
-Currently, two official plugins are available:
+A aplicação consiste em um contador simples onde é possível **incrementar** e **decrementar** o valor exibido na tela. As alterações do contador são controladas pelo **Redux**, permitindo que o estado da aplicação seja centralizado e atualizado de forma organizada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Visualizar projeto:**
+https://contador-react-redux-flux-pattern.vercel.app
 
-## React Compiler
+## Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Redux
+* React-Redux
+* JavaScript
+* CSS
 
-## Expanding the ESLint configuration
+## O que foi praticado neste projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Uso do Redux para gerenciamento de estado global
+* Entendimento da arquitetura **Flux Pattern**
+* Separação da lógica da aplicação em **Actions, Reducer e Store**
+* Integração do Redux com componentes React
+
+Este projeto foi desenvolvido como parte dos meus estudos em **desenvolvimento Front-End**, com o objetivo de praticar a organização do código e compreender melhor o fluxo de dados em aplicações React.
