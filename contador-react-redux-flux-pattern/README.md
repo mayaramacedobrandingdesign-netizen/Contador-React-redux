@@ -5,7 +5,7 @@ Este projeto foi desenvolvido como atividade prática utilizando **React** e **R
 A aplicação consiste em um contador simples onde é possível **incrementar** e **decrementar** o valor exibido na tela. As alterações do contador são controladas pelo **Redux**, permitindo que o estado da aplicação seja centralizado e atualizado de forma organizada.
 
 🔗 **Visualizar projeto:**
-contador-react-redux-zeta.vercel.app
+contador-react-redux-ten.vercel.app
 
 ## Tecnologias utilizadas
 
